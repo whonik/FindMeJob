@@ -18,3 +18,11 @@ Before using this script, make sure you have the following installed:
 You can install the required packages using pip:
 ```bash
 pip install beautifulsoup4 openpyxl requests
+```
+
+## Customization
+You can customize the script by modifying the following variables:
+
+- ban_words: Add or remove words that you want to filter out from job descriptions.
+- key_words: Add or remove keywords that you want to search for in job descriptions.
+- Adjust the URL and search parameters in the requests.get() call to match your specific job search criteria.
